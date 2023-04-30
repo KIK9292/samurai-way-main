@@ -1,11 +1,11 @@
 import React from "react";
-
+import style from "./Header.module.css"
 
 
 export const Header =()=>{
     return(
-    <div >
-        <img src="https://img.freepik.com/premium-vector/cat-logo_647943-184.jpg" alt="avatar" width={95}/>
+    <div className={style.Header}>
+        <img className={style.imgHeader} src="https://images.freeimages.com/images/previews/09e/moon-art-1641879.png" alt="logo"/>
     </div>
     )
 }

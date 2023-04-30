@@ -1,0 +1,7 @@
+.Header{
+    grid-area: h;
+    background-color: green;
+}
+.imgHeader{
+    width: 50px ;
+}
